@@ -1,0 +1,13 @@
+{
+  "name":"orangehrm-enterprise-framework",
+  "version":"1.0.0",
+  "scripts":{
+    "smoke":"playwright test --grep @smoke",
+    "regression":"playwright test",
+    "report":"playwright show-report"
+  },
+  "devDependencies":{
+    "@playwright/test":"^1.52.0",
+    "typescript":"^5.6.3"
+  }
+}
